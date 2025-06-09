@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 2px solid black;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.clock {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-start {
+  background-color: green;
+}
+.btn-start:hover {
+  opacity: 0.8;
+}
+.btn-stop {
+  background-color: red;
+}
+.btn-stop:hover {
+  opacity: 0.8;
+}
+.btn-reset {
+  background-color: blue;
+}
+.btn-reset:hover {
+  opacity: 0.8;
+}
